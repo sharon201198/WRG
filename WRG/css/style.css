@@ -1,0 +1,576 @@
+@font-face {
+    font-family: 'Sailec';
+    src: url('../fonts/Sailec-Black.eot');
+    src: url('../fonts/Sailec-Black.eot?#iefix') format('embedded-opentype'), url('../fonts/Sailec-Black.woff2') format('woff2'), url('../fonts/Sailec-Black.woff') format('woff'), url('../fonts/Sailec-Black.ttf') format('truetype'), url('../fonts/Sailec-Black.svg#Sailec-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sailec';
+    src: url('../fonts/Sailec-BoldItalic.eot');
+    src: url('../fonts/Sailec-BoldItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Sailec-BoldItalic.woff2') format('woff2'), url('../fonts/Sailec-BoldItalic.woff') format('woff'), url('../fonts/Sailec-BoldItalic.ttf') format('truetype'), url('../fonts/Sailec-BoldItalic.svg#Sailec-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sailec';
+    src: url('../fonts/Sailec-Bold.eot');
+    src: url('../fonts/Sailec-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Sailec-Bold.woff2') format('woff2'), url('../fonts/Sailec-Bold.woff') format('woff'), url('../fonts/Sailec-Bold.ttf') format('truetype'), url('../fonts/Sailec-Bold.svg#Sailec-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sailec';
+    src: url('../fonts/Sailec-MediumItalic.eot');
+    src: url('../fonts/Sailec-MediumItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Sailec-MediumItalic.woff2') format('woff2'), url('../fonts/Sailec-MediumItalic.woff') format('woff'), url('../fonts/Sailec-MediumItalic.ttf') format('truetype'), url('../fonts/Sailec-MediumItalic.svg#Sailec-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sailec';
+    src: url('../fonts/Sailec-LightItalic.eot');
+    src: url('../fonts/Sailec-LightItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Sailec-LightItalic.woff2') format('woff2'), url('../fonts/Sailec-LightItalic.woff') format('woff'), url('../fonts/Sailec-LightItalic.ttf') format('truetype'), url('../fonts/Sailec-LightItalic.svg#Sailec-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sailec';
+    src: url('../fonts/Sailec-Medium.eot');
+    src: url('../fonts/Sailec-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/Sailec-Medium.woff2') format('woff2'), url('../fonts/Sailec-Medium.woff') format('woff'), url('../fonts/Sailec-Medium.ttf') format('truetype'), url('../fonts/Sailec-Medium.svg#Sailec-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sailec';
+    src: url('../fonts/Sailec-ThinItalic.eot');
+    src: url('../fonts/Sailec-ThinItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Sailec-ThinItalic.woff2') format('woff2'), url('../fonts/Sailec-ThinItalic.woff') format('woff'), url('../fonts/Sailec-ThinItalic.ttf') format('truetype'), url('../fonts/Sailec-ThinItalic.svg#Sailec-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sailec';
+    src: url('../fonts/Sailec-Thin.eot');
+    src: url('../fonts/Sailec-Thin.eot?#iefix') format('embedded-opentype'), url('../fonts/Sailec-Thin.woff2') format('woff2'), url('../fonts/Sailec-Thin.woff') format('woff'), url('../fonts/Sailec-Thin.ttf') format('truetype'), url('../fonts/Sailec-Thin.svg#Sailec-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sailec';
+    src: url('../fonts/Sailec-BlackItalic.eot');
+    src: url('../fonts/Sailec-BlackItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Sailec-BlackItalic.woff2') format('woff2'), url('../fonts/Sailec-BlackItalic.woff') format('woff'), url('../fonts/Sailec-BlackItalic.ttf') format('truetype'), url('../fonts/Sailec-BlackItalic.svg#Sailec-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sailec Hairline';
+    src: url('../fonts/Sailec-Hairline.eot');
+    src: url('../fonts/Sailec-Hairline.eot?#iefix') format('embedded-opentype'), url('../fonts/Sailec-Hairline.woff2') format('woff2'), url('../fonts/Sailec-Hairline.woff') format('woff'), url('../fonts/Sailec-Hairline.ttf') format('truetype'), url('../fonts/Sailec-Hairline.svg#Sailec-Hairline') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sailec Hairline';
+    src: url('../fonts/Sailec-HairlineItalic.eot');
+    src: url('../fonts/Sailec-HairlineItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Sailec-HairlineItalic.woff2') format('woff2'), url('../fonts/Sailec-HairlineItalic.woff') format('woff'), url('../fonts/Sailec-HairlineItalic.ttf') format('truetype'), url('../fonts/Sailec-HairlineItalic.svg#Sailec-HairlineItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sailec';
+    src: url('../fonts/Sailec-Light.eot');
+    src: url('../fonts/Sailec-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/Sailec-Light.woff2') format('woff2'), url('../fonts/Sailec-Light.woff') format('woff'), url('../fonts/Sailec-Light.ttf') format('truetype'), url('../fonts/Sailec-Light.svg#Sailec-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sailec';
+    src: url('../fonts/Sailec-RegularItalic.eot');
+    src: url('../fonts/Sailec-RegularItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Sailec-RegularItalic.woff2') format('woff2'), url('../fonts/Sailec-RegularItalic.woff') format('woff'), url('../fonts/Sailec-RegularItalic.ttf') format('truetype'), url('../fonts/Sailec-RegularItalic.svg#Sailec-RegularItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sailec';
+    src: url('../fonts/Sailec-Regular.eot');
+    src: url('../fonts/Sailec-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Sailec-Regular.woff2') format('woff2'), url('../fonts/Sailec-Regular.woff') format('woff'), url('../fonts/Sailec-Regular.ttf') format('truetype'), url('../fonts/Sailec-Regular.svg#Sailec-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Sailec';
+    color: #8F9095;
+    font-size: 16px;
+}
+
+h1,
+.h1 {
+    font-size: 88px;
+    line-height: 106.04px;
+    color: #fff;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 80px;
+    line-height: 96.4px;
+    color: #151442;
+    font-weight: 500;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+h3 {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 75px;
+}
+
+h4 {
+    font-size: 36px;
+    line-height: 53.82px;
+    color: #151442;
+}
+
+h6 {
+    font-size: 22px;
+}
+
+span {
+    font-size: 14px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.section {
+    padding: 100px 0;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.btn {
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+    color: initial;
+    text-decoration: none;
+}
+
+.btn.shope {
+    border-radius: 48px;
+    padding: 9px 26px;
+    border: 1px solid #000;
+    float: right;
+    margin-top: 30px;
+}
+
+.btn.dark {
+    background-color: #102421;
+    color: #fff;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.no-gutters>.col,
+.no-gutters>[class*=col-] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.spt_header_1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    width: 100%;
+}
+
+.spt_header_1 nav .navbar-brand img {
+    max-width: 80px;
+}
+
+.spt_header_1 .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 3px 17px;
+    font-size: 14px;
+    color: #151442;
+    line-height: 16.87px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.spt_header_1 .navbar-expand-lg .navbar-nav li {
+    position: relative;
+    padding: 10px 0px;
+}
+
+.spt_header_1 .navbar-expand-lg .navbar-nav li.user::after {
+    content: "";
+    background-image: url('../images/user_icn.png');
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 45px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.spt_header_1 .navbar-expand-lg .navbar-nav li.cart .number {
+    display: inline-block;
+    background-color: #151442;
+    border-radius: 50%;
+    color: #fff;
+    padding: 4px 8px;
+    position: absolute;
+    top: 12px;
+    right: 32px;
+}
+
+.spt_header_1.sticky .navbar-expand-lg .navbar-nav li.cart .number {
+    background-color: #fff;
+    color: #151442;
+}
+
+.spt_header_1 .navbar-expand-lg .navbar-nav li.cart::after {
+    content: "";
+    background-image: url('../images/cart_icn.png');
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 25px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.spt_header_1.sticky .navbar-expand-lg .navbar-nav li.cart::after {
+    filter: invert(1);
+}
+
+.green-area {
+    background-color: #102421;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    height: 100%;
+}
+
+.btn-banner {
+    font-size: 14px;
+    background-color: #C7E1BF;
+    border-radius: 48px;
+    padding: 13px 26px;
+    color: #102522;
+    text-decoration: none;
+}
+
+.banner .white-banner {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+.banner .white-banner img {
+    margin-left: -100px;
+    object-fit: contain;
+}
+
+.spt_header_1 .navbar-expand-lg .navbar-nav li.cart {
+    padding-left: 40px;
+}
+
+.banner .inner-green {
+    color: #D2D2D2;
+    font-size: 14px;
+}
+
+.green-area h6 {
+    margin-bottom: 98px;
+}
+
+.green-area h6 {
+    margin-bottom: 46px;
+}
+
+.green-area .btn {
+    margin-right: 52px;
+}
+
+.spt_header_1.sticky {
+    background-color: #102421;
+}
+
+.spt_header_1.sticky .navbar-expand-lg .navbar-nav .nav-link {
+    color: #fff;
+}
+
+footer {
+    background-color: #0F2421;
+    padding: 150px 0 200px 0
+}
+
+.footer-links li a {
+    color: #fff;
+    line-height: 39.55px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footer-links li:first-child a {
+    font-weight: 500;
+    margin-bottom: 30px;
+    font-size: 18px;
+    display: inline-block;
+    margin-bottom: 26px;
+}
+
+.inner-testimonial h4 {
+    padding: 50px 0 20px 0;
+}
+
+.benefits-inner img {
+    margin-bottom: 65px;
+}
+
+.benefits-inner p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26.91px;
+    color: #151442;
+}
+
+.spt_parallax {
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.words {
+    padding: 90px 60px;
+    background-color: #FFF3F3;
+}
+
+.parallax-inner h2 {
+    color: #fff;
+}
+
+.words h3 {
+    padding: 25px;
+    color: #342B42;
+}
+
+.qoutes {
+    background-image: url('../images/comma.png');
+    height: 45px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 45px;
+    display: inline-block;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-right .qoutes {
+    transform: rotate(180deg);
+}
+
+.parallax-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.testimonial-item img {
+    height: 400px;
+}
+
+.footer-links.second li a {
+    line-height: 25px;
+}
+
+footer .container {
+    position: relative;
+}
+
+#totop {
+    position: absolute;
+    right: 0;
+    top: -68px;
+}
+
+.parallax-inner span a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.author {
+    padding: 25px;
+}
+
+.testimonial-item {
+    margin: 0 20px;
+}
+
+@media only screen and (min-width: 1600px) {
+    .container {
+        max-width: 1737px;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    footer {
+        padding: 100px 0;
+    }
+    .words h3 {
+        padding: 10px;
+    }
+    .author {
+        padding: 10px;
+    }
+    .words {
+        padding: 30px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .banner .white-banner img {
+        margin-left: 0;
+        object-fit: cover;
+        width: 100%;
+    }
+    .green-area {
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    h1,
+    .h1 {
+        font-size: 60px;
+        line-height: 86.04px;
+    }
+    h2 {
+        font-size: 45px;
+        line-height: 65.4px;
+    }
+    h3 {
+        font-size: 34px;
+        line-height: 50px;
+    }
+    h4 {
+        font-size: 25px;
+        line-height: 33.82px;
+    }
+    .btn.shope {
+        float: none;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .spt_header_1 {
+        background-color: #102421;
+    }
+    footer {
+        padding: 82px 0 20px 0;
+    }
+    .section {
+        padding: 60px 0;
+    }
+    .navbar-toggler-icon {
+        filter: invert(1)
+    }
+    .spt_header_1 .navbar-expand-lg .navbar-nav .nav-link {
+        color: #fff;
+    }
+    .spt_header_1 .navbar-expand-lg .navbar-nav li.cart {
+        padding-left: 0;
+    }
+    .spt_header_1 .navbar-expand-lg .navbar-nav li.cart::after {
+        filter: invert(1);
+    }
+    .spt_header_1 .navbar-expand-lg .navbar-nav li.cart .number {
+        right: auto;
+    }
+    .spt_header_1 .navbar-expand-lg .navbar-nav li.user::after {
+        position: absolute;
+        left: 7px;
+    }
+    .testimonial-item {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    h1,
+    .h1 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    h2 {
+        font-size: 27px;
+        line-height: 34px;
+    }
+    h3 {
+        font-size: 26px;
+        line-height: 33px;
+    }
+    h4 {
+        font-size: 25px;
+        line-height: 33.82px;
+    }
+    footer {
+        text-align: center;
+    }
+}
